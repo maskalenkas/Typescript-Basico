@@ -1,7 +1,9 @@
+// readonly serve para não ser modificado depois de criado
+
 interface Game {
   title: string
   description: string
-  genre: string
+  readonly genre: string
   plataform: string[]
   getSimilars: (title:string) => void
 }
