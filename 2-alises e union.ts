@@ -7,7 +7,10 @@ function log(uid: UID, item: string) {
   console.log(`Product: ${item} || Id: ${uid}`)
 }
 
-log(123,'teste')
+log(123, 'teste')
+
+
+
 
 // 2
 type Plataform = 'Windows' | 'Linux' | 'Mac OS'
@@ -17,6 +20,7 @@ function renderPlataform(plataform: Plataform) {
 }
 
 renderPlataform('Windows')
+
 
 
 

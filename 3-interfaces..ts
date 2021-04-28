@@ -17,3 +17,9 @@ const tlou: Game = {
     console.log('testando a função')
   }
 }
+
+// Para interpolar 2 interfaces, se usa o extends
+// interface xx extends Game { ... }
+
+// Para interpolar classe com interface, se usa o implements
+// class xx implements Game { ... }
